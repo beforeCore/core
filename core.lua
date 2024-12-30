@@ -750,29 +750,30 @@ function library:Introduction()
     barLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
     barLayout.SortOrder = Enum.SortOrder.LayoutOrder
     
-    xsxLogo.Name = "xsxLogo"
-    xsxLogo.Parent = background
-    xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    xsxLogo.BackgroundTransparency = 1.000
-    xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    xsxLogo.Size = UDim2.new(0, 448, 0, 150)
-    xsxLogo.Visible = true
-    xsxLogo.Image = "https://roblox.com/library/107026046586805"
-    xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    xsxLogo.ImageTransparency = 1
-    
-    hashLogo.Name = "hashLogo"
-    hashLogo.Parent = background
-    hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    hashLogo.BackgroundTransparency = 1.000
-    hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 150, 0, 150)
-    hashLogo.Visible = true
-    hashLogo.Image = "https://roblox.com/library/107026046586805"
-    hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    hashLogo.ImageTransparency = 1
+xsxLogo.Name = "xsxLogo"
+xsxLogo.Parent = background
+xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
+xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+xsxLogo.BackgroundTransparency = 1.000
+xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
+xsxLogo.Size = UDim2.new(0, 448, 0, 150)
+xsxLogo.Visible = true
+xsxLogo.Image = "http://www.roblox.com/asset/?id=107026046586805"
+xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
+xsxLogo.ImageTransparency = 1
+
+hashLogo.Name = "hashLogo"
+hashLogo.Parent = background
+hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
+hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hashLogo.BackgroundTransparency = 1.000
+hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
+hashLogo.Size = UDim2.new(0, 150, 0, 150)
+hashLogo.Visible = true
+hashLogo.Image = "http://www.roblox.com/asset/?id=107026046586805"
+hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
+hashLogo.ImageTransparency = 1
+
     
     xsx.Name = "xsx"
     xsx.Parent = background
@@ -792,7 +793,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "before.core"
+    text.Text = "int"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
